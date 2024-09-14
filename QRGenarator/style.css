@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: #f69c00;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.qr-container{
+    width: 400px;
+    border-radius: 10px;
+    display:  flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    box-shadow: 0px 0px 10px 0px black;
+    padding: 10px;
+    background-color: white;
+
+}
+h2{
+    text-align:  center;
+}
+#qr-input{
+    width: 100%;
+    border: 2px solid rgb(0, 68, 255);
+    border-radius: 5px;
+    padding: 5px;
+
+}
+#qr-button{
+    width: 100%;
+    border-radius: 5px;
+    padding: 6px;
+    background-color: rgb(84, 248, 13);
+    color: rgb(46, 79, 101);
+    border: 1px solid rgb(180, 244, 180);
+   
+}
+#qr-button:hover{
+    background-color: rgb(13, 248, 21);
+}
