@@ -57,7 +57,10 @@ flex: 5;
     width: 100vw;
 
 }.panel.active{
-    flex: 5;
+    flex:5;
+}  .panel:nth-of-type(3),
+.panel:nth-of-type(5) {
+    display: none
 }
 
 }
